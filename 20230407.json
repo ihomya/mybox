@@ -1,7 +1,7 @@
 {
     "warningText": "无广告",
     "wallpaper": "http://maoyingshi.cc/api.php",
-    "spider": "https://raw.liucn.cc/box/sub/jar/2212.jar;md5;80DA9A5A82CDCE90317FD19B7FAA1890",
+    "spider": "https://raw.liucn.cc/box/sub/jar/2023.jar;",
     "live": [
         {
             "group": "redirect",
@@ -18,7 +18,7 @@
     "sites": [
         {
             "key": "js豆瓣",
-            "name": "🏮接口变更，请到公众号回复[接口]获取最新接口🏮",
+            "name": "js豆瓣",
             "type": 3,
             "api": "https://jihulab.com/duomv/duo/-/raw/main/js/drpymin.js",
             "searchable": 0,
