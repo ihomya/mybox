@@ -1,7 +1,7 @@
 {
     "warningText": "无广告",
     "wallpaper": "http://maoyingshi.cc/api.php",
-    "spider": "https://ghproxy.com/https://github.com/ihomya/mybox/raw/main/jar/fm.jar;",
+    "spider": "https://github.com/ihomya/mybox/raw/main/jar/fm.jar;",
     "live": [
         {
             "group": "redirect",
