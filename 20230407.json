@@ -1,7 +1,7 @@
 {
     "warningText": "无广告",
     "wallpaper": "http://maoyingshi.cc/api.php",
-    "spider": "https://raw.liucn.cc/box/sub/jar/2023.jar;",
+    "spider": "https://ghproxy.com/https://github.com/ihomya/mybox/raw/main/jar/fm.jar;",
     "live": [
         {
             "group": "redirect",
@@ -26,16 +26,8 @@
             "filterable": 1,
             "ext": "https://jihulab.com/duomv/duo/-/raw/main/js/douban.js"
         },
-        {
-            "key": "csp_QQ",
-            "name": "🍅腾讯视频(官)",
-            "type": 3,
-            "api": "csp_QQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "https://raw.liucn.cc/box/sub/ext/qq_qiyi_mgtv.jpg"
-        },
+         
+{"key":"teng","name":"🐧┃企鹅┃官源","type": 3,"api":"csp_Qtv","searchable": 1,"quickSearch": 1,"filterable":1},
         {
             "key": "csp_IQIYI",
             "name": "🥝爱奇艺(官)",
