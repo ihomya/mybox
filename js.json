@@ -2,15 +2,14 @@
   "warningText": "无广告",
   "spider": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;a28d41c9e6a71040d06dc948cb62a64a",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-  "sites": [
-    {
-      "key": "本地",
-      "name": "本地",
-      "type": 3,
-      "api": "csp_Local",
-      "searchable": 0,
-      "changeable": 0
-    },
+  "sites": [{
+    "key": "本地",
+    "name": "本地",
+    "type": 3,
+    "api": "csp_Local",
+    "searchable": 0,
+    "changeable": 0
+  },
     {
       "key": "AList",
       "name": "AList",
@@ -29,108 +28,88 @@
       "changeable": 0,
       "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/webdav.json"
     },
-    ,
     {
-      "key": "dr_豆瓣",
-      "name": "🔍豆瓣",
+      "key": "drpy_js_豆瓣",
+      "name": "豆瓣推荐 ",
       "type": 3,
-      "api": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/lib/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/drpy.js"
+      "api": "./dr/lib/drpy2.min.js",
+      "ext": "./dr/js/drpy.js"
     },
     {
-      "key": "csp_77",
-      "name": "★酷云七七",
+      "key": "drpy_js_360影视",
+      "name": "360影视",
       "type": 3,
-      "api": "csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "api": "./dr/lib/drpy2.min.js",
+      "ext": "./dr/js/360影视.js"
     },
     {
-      "key": "戏曲",
-      "name": "戏曲",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/Blixq.json"
+      "key":"drpy_js_奇珍异兽",
+      "name":"爱奇艺[js]",
+      "type":3,
+      "api":"./dr/lib/drpy2.min.js",
+      "ext":"./dr/js/奇珍异兽.js"
     },
     {
-      "key": "少儿",
-      "name": "少儿",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/少儿教育.json"
+      "key":"drpy_js_优酷",
+      "name":"优酷[js]",
+      "type":3,
+      "api":"./dr/lib/drpy2.min.js",
+      "ext":"./dr/js/优酷.js"
     },
     {
-      "key": "csp_QQ",
-      "name": "🐧腾讯视频(SP)",
-      "type": 3,
-      "api": "csp_QQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://notabug.org/imbig66/tv-spider-man/raw/master/jar/258602"
-    }
-  ],
-  "parses": [
-    {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
+      "key":"drpy_js_腾云驾雾",
+      "name":"腾讯[js]",
+      "type":3,
+      "api":"./dr/lib/drpy2.min.js",
+      "ext":"./dr/js/腾云驾雾.js"
     },
     {
-      "name": "Json并发",
-      "type": 2,
-      "url": "Parallel"
+      "key":"drpy_js_百忙无果",
+      "name":"芒果[js]",
+      "type":3,
+      "api":"./dr/lib/drpy2.min.js",
+      "ext":"./dr/js/百忙无果.js"
     },
     {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
+      "key":"drpy_js_菜狗",
+      "name":"搜狗[js]",
+      "type":3,
+      "api":"./dr/lib/drpy2.min.js",
+      "ext":"./dr/js/菜狗.js"
     },
-    
-    {
-      "name": "爱豆",
-      "type": 1,
-      "url": "https://jx.aidouer.net/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "iqiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ]
-      }
-    },
-
-  "doh": [
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": ["8.8.4.4", "8.8.8.8"]
-    },
+{"key":"csp_953365","name":"推荐观看","type":3,"api":"csp_AppYsV2","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://4k.953365.cn:8090/xgapp.php/v3/","jar": "https://agit.ai/00700/vvebo/raw/branch/main/Spider/T00700.jar;md5;8EB81B808DCAA07BA59FE91609C6B8C3"}],
+  "parses": [{
+    "name":"bozrc",
+    "type":0,
+    "url":"https://jx.bozrc.com:4433/player/?url=",
+    "ext": {
+      "flag":["qq",
+        "腾讯",
+        "qiyi",
+        "爱奇艺",
+        "奇艺",
+        "youku",
+        "优酷",
+        "mgtv",
+        "芒果",
+        "letv",
+        "leshi",
+        "LS",
+        "pptv",
+        "PPTV",
+        "sohu",
+        "bilibili",
+        "哔哩哔哩",
+        "哔哩"],
+      "header": {
+        "User-Agent":""
+      }}}],
+  "doh": [{
+    "name": "Google",
+    "url": "https://dns.google/dns-query",
+    "ips": ["8.8.4.4",
+      "8.8.8.8"]
+  },
     {
       "name": "Cloudflare",
       "url": "https://cloudflare-dns.com/dns-query",
@@ -144,30 +123,32 @@
     {
       "name": "AdGuard",
       "url": "https://dns.adguard.com/dns-query",
-      "ips": ["94.140.14.140", "94.140.14.141"]
+      "ips": ["94.140.14.140",
+        "94.140.14.141"]
     },
     {
       "name": "DNSWatch",
       "url": "https://resolver2.dns.watch/dns-query",
-      "ips": ["84.200.69.80", "84.200.70.40"]
+      "ips": ["84.200.69.80",
+        "84.200.70.40"]
     },
     {
       "name": "Quad9",
       "url": "https://dns.quad9.net/dns-quer",
-      "ips": ["9.9.9.9", "149.112.112.112"]
-    }
-  ],
-  "rules": [
-    {
-      "name": "星星",
-      "hosts": ["aws.ulivetv.net"],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
+      "ips": ["9.9.9.9",
+        "149.112.112.112"]
+    }],
+  "rules": [{
+    "name": "星星",
+    "hosts": ["aws.ulivetv.net"],
+    "regex": [
+      "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+    ]
+  },
     {
       "name": "量子廣告",
-      "hosts": ["vip.lz", "hd.lz"],
+      "hosts": ["vip.lz",
+        "hd.lz"],
       "regex": [
         "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
         "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
@@ -175,7 +156,8 @@
     },
     {
       "name": "非凡廣告",
-      "hosts": ["vip.ffzy", "hd.ffzy"],
+      "hosts": ["vip.ffzy",
+        "hd.ffzy"],
       "regex": [
         "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
         "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
@@ -190,8 +172,7 @@
       "name": "抖音嗅探",
       "hosts": ["douyin.com"],
       "regex": ["is_play_url="]
-    }
-  ],
+    }],
   "ads": [
     "mi.gdt.qq.com",
     "wan.51img1.com",
