@@ -1,18 +1,18 @@
 {
   "#": "阿里＋解析",
-  "spider": "https://jihulab.com/ymz1231/jar/-/raw/main/fan.jar;md5;e911ef9b3f3c5101a90cdfd022f566f0",
+  "spider": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;a28d41c9e6a71040d06dc948cb62a64a",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-  "sites": [
-    {
-      "key": "csp_SP33",
-      "name": "📺三三┃解析",
-      "type": 3,
-      "api": "csp_SP33",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0
-    },
+  "sites": [{
+    "key": "csp_SP33",
+    "name": "📺三三┃解析",
+    "type": 3,
+    "api": "csp_SP33",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "changeable": 0,
+    "jar": "https://jihulab.com/ymz1231/jar/-/raw/main/fan.jar;md5;e911ef9b3f3c5101a90cdfd022f566f0"
+  },
     {
       "key": "drpy_js_腾云驾雾",
       "name": "官源 | 🐧",
@@ -28,7 +28,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0
+      "changeable": 0,
+    "jar": "https://jihulab.com/ymz1231/jar/-/raw/main/fan.jar;md5;e911ef9b3f3c5101a90cdfd022f566f0"
     },
     {
       "key": "drpy_js_百忙无果",
@@ -45,7 +46,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0
+      "changeable": 0,
+    "jar": "https://jihulab.com/ymz1231/jar/-/raw/main/fan.jar;md5;e911ef9b3f3c5101a90cdfd022f566f0"
     },
     {
       "key": "drpy_js_奇珍异兽",
@@ -62,7 +64,8 @@
       "quickSearch": 1,
       "searchable": 1,
       "filterable": 1,
-      "changeable": 0
+      "changeable": 0,
+    "jar": "https://jihulab.com/ymz1231/jar/-/raw/main/fan.jar;md5;e911ef9b3f3c5101a90cdfd022f566f0"
     },
     {
       "key": "drpy_yh",
@@ -86,7 +89,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://jihulab.com/ymz1231/json/-/raw/main/西瓜影视.json"
+      "ext": "https://jihulab.com/ymz1231/json/-/raw/main/西瓜影视.json",
+    "jar": "https://jihulab.com/ymz1231/jar/-/raw/main/fan.jar;md5;e911ef9b3f3c5101a90cdfd022f566f0"
     },
     {
       "key": "csp_WoGG",
@@ -210,17 +214,15 @@
       "api": "csp_Local",
       "searchable": 0,
       "changeable": 0
-    }
-  ],
-  "doh": [
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": [
-        "8.8.4.4",
-        "8.8.8.8"
-      ]
-    },
+    }],
+  "doh": [{
+    "name": "Google",
+    "url": "https://dns.google/dns-query",
+    "ips": [
+      "8.8.4.4",
+      "8.8.8.8"
+    ]
+  },
     {
       "name": "Cloudflare",
       "url": "https://cloudflare-dns.com/dns-query",
@@ -254,14 +256,12 @@
         "9.9.9.9",
         "149.112.112.112"
       ]
-    }
-  ],
-  "parses": [
-    {
-      "name": "Web聚合",
-      "type": 3,
-      "url": "Web"
-    },
+    }],
+  "parses": [{
+    "name": "Web聚合",
+    "type": 3,
+    "url": "Web"
+  },
     {
       "name": "🐱0号",
       "type": 0,
@@ -1084,92 +1084,87 @@
           "User-Agent": ""
         }
       }
-    }
-  ],
-  "ijk": [
-    {
-      "group": "软解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        }
-      ]
+    }],
+  "ijk": [{
+    "group": "软解码",
+    "options": [{
+      "category": 4,
+      "name": "opensles",
+      "value": "0"
     },
+      {
+        "category": 4,
+        "name": "overlay-format",
+        "value": "842225234"
+      },
+      {
+        "category": 4,
+        "name": "framedrop",
+        "value": "1"
+      },
+      {
+        "category": 4,
+        "name": "soundtouch",
+        "value": "1"
+      },
+      {
+        "category": 4,
+        "name": "start-on-prepared",
+        "value": "1"
+      },
+      {
+        "category": 1,
+        "name": "http-detect-range-support",
+        "value": "0"
+      },
+      {
+        "category": 2,
+        "name": "skip_loop_filter",
+        "value": "48"
+      },
+      {
+        "category": 4,
+        "name": "reconnect",
+        "value": "1"
+      },
+      {
+        "category": 4,
+        "name": "enable-accurate-seek",
+        "value": "0"
+      },
+      {
+        "category": 4,
+        "name": "mediacodec",
+        "value": "0"
+      },
+      {
+        "category": 4,
+        "name": "mediacodec-auto-rotate",
+        "value": "0"
+      },
+      {
+        "category": 4,
+        "name": "mediacodec-handle-resolution-change",
+        "value": "0"
+      },
+      {
+        "category": 4,
+        "name": "mediacodec-hevc",
+        "value": "0"
+      },
+      {
+        "category": 1,
+        "name": "dns_cache_timeout",
+        "value": "600000000"
+      }]
+  },
     {
       "group": "硬解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
+      "options": [{
+        "category": 4,
+        "name": "opensles",
+        "value": "0"
+      },
         {
           "category": 4,
           "name": "overlay-format",
@@ -1239,10 +1234,8 @@
           "category": 1,
           "name": "dns_cache_timeout",
           "value": "600000000"
-        }
-      ]
-    }
-  ],
+        }]
+    }],
   "ads": [
     "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd",
     "mimg.0c1q0l.cn",
