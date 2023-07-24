@@ -1,0 +1,22 @@
+[
+    {
+        "source": "https://agit.ai/00700/vvebo",
+        "json": "https://raw.gitmirror.com/T00700/TVBoxSE/master/FongMi.json",
+        "jar": "https://agit.ai/00700/vvebo/raw/branch/main/Spider/T00700.jar;md5;8EB81B808DCAA07BA59FE91609C6B8C3"
+    },
+    {
+        "source": "https://agit.ai/Yoursmile7/TVBox",
+        "json": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
+        "jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;0A4B198EEC040AB9088F865A169BD04B"
+    },
+    {
+        "source": "https://github.com/FongMi/CatVodSpider",
+        "json": "https://fastly.jsdelivr.net/gh/FongMi/CatVodSpider@main/json/config.json",
+        "jar": "https://fastly.jsdelivr.net/gh/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;c87a187b382db0c694f9e2664242a864"
+    },
+    {
+        "source": "",
+        "json": "",
+        "jar": ""
+    }
+]
