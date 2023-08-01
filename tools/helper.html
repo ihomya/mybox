@@ -1,36 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="start">开始界面</div>
-    <div class="source-list">
-      <ul>
-        <li class="source-name">
-          <div class="item-key"></div>
-          <div class="item-name"></div>
-          <div class="item-api"></div>
-          <div class="item-ext"></div>
-          <div class="item-jar"></div>
-          <!--  Type 0-xml 1-json 2-爬虫源 3-自定义爬虫 4-服务器爬虫 -->
-          <div class="item-type"></div>
-          <!-- playerType：播放器  (1：IJK、2：EXO)  -->
-          <div class="item-playerType"></div>
-          <!-- 是否开启搜索 -->
-          <div class="item-searchable"></div>
-          <!-- 是否开启快速搜索 -->
-          <div class="item-quickSearch"></div>
-          <!-- 是否开启过滤 -->
-          <div class="item-filerable"></div>
-          <!-- 是否开启自动换源 -->
-          <div class="item-changeable"></div>
-        </li>
-      </ul>
-      <ul class="source-item"></ul>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: skyblue;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+
+    .container {
+      display: flex;
+      width: min(99%, 980px);
+      border-radius: 10px;
+      margin: 10px auto;
+    }
+
+    .head {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+    }
+
+    .head button {
+      flex: 1;
+      border: 1px solid transparent;
+      border-radius: 6px;
+      padding: 5px;
+      margin-left: 5px;
+      background-color: transparent;
+      vertical-align: middle;
+
+      border: 1px solid #ccc;
+    }
+
+    .head input {
+      flex: 8;
+      /* height: 30px; */
+      background-color: transparent;
+      padding-left: 10px;
+      border-radius: 6px;
+      outline: none;
+      border: 1px solid #ccc;
+
+    }
+
+    .head input:focus {
+      border: 1px solid skyblue;
+      background-color: rgba(0, 0, 0, 0.057);
+
+    }
+
+    .head button:hover {
+      background-color: rgba(0, 0, 0, 0.057);
+    }
+
+    .body {
+      display: flex;
+      justify-content: space-bettwen;
+      /* background-color: pink; */
+    }
+
+    .body .sidebar {
+      flex: 1;
+      min-width: 100px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+
+
+    .body .sidebar .btn {
+      /* height: 5vh; */
+      /* margin-bottom: 10px; */
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 1vh;
+
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .body .sidebar .btn:hover,
+    .body .sidebar .btn.current {
+      background-color: rgba(0, 0, 0, 0.057);
+      color: #402dea;
+    }
+
+    .body .content {
+      flex: 5;
+      min-width: 200px;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      margin-left: 10px;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="./helper.js" class="head container ">
+    <input type="text" class="set-url" placeholder="输入Tvbox接口链接" name="url">
+    <button type="submit" class="get-url">提交</button>
+  </form>
+  <div class="body container">
+    <div class="sidebar ">
+      <div class="source-key-list">
+        <ul>
+          <li class="source-name btn "> test </li>
+        </ul>
+      </div>
     </div>
-  </body>
+    <div class="content">
+      <div class="source-item-list">
+        <ul>
+          <li class="source-item">
+            <div class="item-key">1</div>
+            <div class="item-name"></div>
+            <div class="item-api"></div>
+            <div class="item-ext"></div>
+            <div class="item-jar"></div>
+            <!--  Type 0-xml 1-json 2-爬虫源 3-自定义爬虫 4-服务器爬虫 -->
+            <div class="item-type"></div>
+            <!-- playerType：播放器  (1：IJK、2：EXO)  -->
+            <div class="item-playerType"></div>
+            <!-- 是否开启搜索 -->
+            <div class="item-searchable"></div>
+            <!-- 是否开启快速搜索 -->
+            <div class="item-quickSearch"></div>
+            <!-- 是否开启过滤 -->
+            <div class="item-filerable"></div>
+            <!-- 是否开启自动换源 -->
+            <div class="item-changeable"></div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <script>
+    // console.log($);
+    // $(".head")
+  </script>
+</body>
+
 </html>
