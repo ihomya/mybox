@@ -34,7 +34,12 @@
       "filterable": 1,
       "jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;0A4B198EEC040AB9088F865A169BD04B",
       "#source": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json"
-    },
+    },{"key":"新视觉","name":"✨新视觉","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/新视觉影院.json",
+      "jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;0A4B198EEC040AB9088F865A169BD04B",
+      "#source": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json"},
+{"key":"csp_DiDuan","name":"📺低端","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"filterable":0,
+      "jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar;md5;0A4B198EEC040AB9088F865A169BD04B",
+      "#source": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json"},
     {
       "key": "csp_Dm84",
       "name": "🚌动漫巴士",
