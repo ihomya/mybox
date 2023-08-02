@@ -1,22 +1,59 @@
 {
-  "spider": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;a28d41c9e6a71040d06dc948cb62a64a",
+  "#spider": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;a28d41c9e6a71040d06dc948cb62a64a",
+  //"spider": "./lib/jar/fm.jar",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-  "sites": [
-        {
-      "key":"t4_公共",
-      "name":"📡豆瓣",
-      "type":4,
-      "api":"https://t4.secan.icu/vod?sites=all&ali_token=阿里token&timeout=10",
+  "sites": [ {
+    "key": "js豆瓣",
+    "name": "🔍豆瓣",
+    "type": 3,
+    "api": "./lib/js/drpy2.min.js",
+    "ext": "./lib/js/drpy.js"
+  },
+    {
+      "key": "戏曲自定义",
+      "name": "📺哔哩戏曲",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable":
+      0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "./lib/Bilibili/吾爱戏曲.json"
+    },
+    {
+      "key":"dr_荐片",
+      "name":"荐片",
+      "type":3,
+      "api":"./lib/js/drpy2.min.js",
+      "playerType":"1",
       "searchable":1,
       "quickSearch":1,
-      "filterable":0
-    },{
-    "key":"drpy_js_豆瓣",
-    "name":"🔍豆瓣",
-    "type":3,
-    "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
-    "ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/drpy.js"
-  },/*{"key":"drpy_Rinhome","name":"荐片蓝光","type":3,"api":"https://agit.ai/00700/vvebo/raw/branch/main/DRJS/Lib/drpy2.diy.min.js","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/00700/vvebo/raw/branch/main/DRJS/%e8%8d%90%e7%89%870726.js"},*/
+      "filterable":1,
+      "ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/荐片.js"
+    },
+    {
+      "key": "csp_Nmys",
+      "name": "✈️速度流畅",
+      "type": 3,
+      "api": "csp_Nmys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/XBPQ/nmys.json",
+      "jar": "./lib/jar/0606.jar"
+    },
+    {
+      "key":"csp_XBPQTVB影视",
+      "name":"☁️极速云播",
+      "type":3,
+      "api":"csp_xBPQ",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"./lib/XBPQ/TVB.json",
+      "jar":"./lib/jar/xBPQ_1106.jar"
+    },
     {
       "key": "csp_Kunyu77",
       "name": "☁酷云七七",
@@ -26,8 +63,21 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar",
-      "#source": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json"
+      "changeable": 0,
+      "jar": "./lib/jar/fm.jar"
+    },
+    {
+      "key":"heihei",
+      "name":"🐶Dora",
+      "type":"3",
+      "api":"csp_Dora",
+      "changeable":"0",
+      "searchable":"1",
+      "quickSearch":"1",
+      "filterable":"1",
+      "ext":"3bff500c8b1e06c052a1b0f1f7a62b45",
+      "jar":
+      "img+http://gh.t4tv.hz.cz/newjar.bmp;md5;c1e46263999c6c1764d0bb919fa0bd69"
     },
     {
       "key":"新视觉",
@@ -38,21 +88,8 @@
       "quickSearch":1,
       "filterable":1,
       "changeable":1,
-      "ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/新视觉影院.json",
-      "jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar",
-      "#source": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json"
-    },
-    {
-      "key":"csp_Ysgc",
-      "name":"🎥影视工厂",
-      "type":3,
-      "api":"csp_Ysgc",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1,
-      "ext":"https://www.ysgc.fun",
-      "jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar",
-      "#source": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json"
+      "ext":"./lib/XBPQ/新视觉影院.json",
+      "jar": "./lib/jar/fm.jar"
     },
     {
       "key": "csp_Czsapp",
@@ -62,76 +99,39 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar",
-      "#source": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json"
+      "jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"
     },
     {
-      "key":"drpy_js_360影视",
-      "name":"官源 | 360[js]",
+      "key":"csp_fantuan",
+      "name":"🍙饭团",
       "type":3,
-      "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
-      "ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/360影视.js"
+      "api":"csp_Fantuan",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"https://www.fantuan3.com",
+      "jar": "./lib/jar/fm.jar"
     },
     {
-      "key":"drpy_js_奇珍异兽",
-      "name":"官源 | 爱奇艺[js]",
+      "key":"teng",
+      "name":"🐧腾讯",
       "type":3,
-      "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
-      "ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/奇珍异兽.js"
+      "api":"csp_Qtv",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "jar": "./lib/jar/fm.jar"
     },
+
     {
-      "key":"drpy_js_优酷",
-      "name":"官源 | 优酷[js]",
+      "key":"MGT",
+      "name":"🍋芒果",
       "type":3,
-      "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
-      "ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/优酷.js"
-    },
-    {
-      "key":"drpy_js_腾云驾雾",
-      "name":"官源 | 腾讯[js]",
-      "type":3,
-      "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
-      "ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/腾云驾雾.js"
-    },
-    {
-      "key":"drpy_js_百忙无果",
-      "name":"官源 | 芒果[js]",
-      "type":3,
-      "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
-      "ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/百忙无果.js"
-    },
-    {
-      "key":"drpy_js_菜狗",
-      "name":"官源 | 搜狗[js]",
-      "type":3,
-      "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
-      "ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/菜狗.js"
-    },
-    {
-      "key":"drpy_js_人人",
-      "name":"影视 | 人人[js]",
-      "type":3,
-      "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
-      "ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/人人.js"
-    },
-    {
-      "key":"drpy_js_低端",
-      "name":"影视 | 低端[js]",
-      "type":3,
-      "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
-      "ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/ddys.js"
-    },
-    {
-      "key": "哔哩",
-      "name": "哔哩哔哩",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "type": "潮剧#潮剧选段",
-        "cookie": ""
-      }
+      "api":"csp_Mtv",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "jar": "./lib/jar/fm.jar"
     },
     {
       "key": "量子",
@@ -231,7 +231,7 @@
       "api": "csp_AList",
       "searchable": 1,
       "changeable": 0,
-      "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/alist.json"
+      "ext": "./lib/data/alist.json"
     },
     {
       "key": "WebDAV",
