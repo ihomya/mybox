@@ -18,4 +18,5 @@ strHtml = info
 //$jsontip.html(strHtml);
 console.log(strHtml)
 }
+
 })
