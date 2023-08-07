@@ -69,6 +69,14 @@
       "jar": "./lib/jar/fm.jar"
     },
     {
+      "key": "快看",
+      "name": "快看",
+      "type": 3,
+      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/kkys_open.js",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
       "key": "heihei",
       "name": "🐶Dora",
       "type": "3",
