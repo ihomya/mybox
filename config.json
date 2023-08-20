@@ -186,13 +186,6 @@
     },
     /* ↓↓↓↓↓↓↓ https://raw.gitmirror.com/T00700/TVBoxSE/master/FongMi.json ↓↓↓↓↓↓↓ */
     {
-      "key": "js豆瓣",
-      "name": "🔍豆瓣",
-      "type": 3,
-      "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy.js"
-    },
-    {
       "key": "drpy_Kunyun77",
       "name": "☁酷云七七",
       "type": 3,
