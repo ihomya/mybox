@@ -11,7 +11,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"
-    },{"key":"快看","name":"👀快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1,"jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
+    },
 
     /* ### https://ghproxy.com/raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json ### */
     {
@@ -33,6 +33,14 @@
       "name": "厂长影视",
       "type": 3,
       "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/czzy_open.js",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "快看",
+      "name": "快看",
+      "type": 3,
+      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/kkys_open.js",
       "searchable": 1,
       "changeable": 1
     },
