@@ -3,33 +3,40 @@
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
-      "key": "csp_DouDou",
+      "key": "drpy_js_douban",
       "name": "🔍豆瓣",
       "type": 3,
-      "api": "csp_DouDou",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"
+      "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/drpy.js"
     },
-
-    /* ### https://ghproxy.com/raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json ### */
     {
-      "key": "戏曲自定义",
-      "name": "📺哔哩潮剧",
+      "key": "drpy_js_荐片",
+      "name": "荐片",
       "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": {
-        "type": "潮剧#超清潮剧#潮剧选段#潮剧全剧#百花潮剧院#香港潮剧#潮剧团#潮剧院#潮剧小品#名家潮剧",
-        "cookie": ""
-      }
+      "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/荐片.js"
     },
     {
-      "key": "厂长",
+      "key": "kunyu77_open",
+      "name": "☁酷云七七",
+      "type": 3,
+      "api": "https://ghproxy.com/https://raw.githubusercontent.com/catvod/CatVodOpen/main/open/kunyu77_open.js",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "kkys_open",
+      "name": "⚡快看影视",
+      "type": 3,
+      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/kkys_open.js",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "czzy_open",
       "name": "厂长影视",
       "type": 3,
       "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/czzy_open.js",
@@ -37,26 +44,10 @@
       "changeable": 1
     },
     {
-      "key": "快看",
-      "name": "快看",
-      "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/kkys_open.js",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "爱看",
-      "name": "爱看",
+      "key": "ikanbot_open",
+      "name": "🤖爱看",
       "type": 3,
       "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/ikanbot_open.js",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "櫻花",
-      "name": "櫻花",
-      "type": 3,
-      "api": "csp_Ying",
       "searchable": 1,
       "changeable": 1
     },
@@ -67,6 +58,50 @@
       "api": "csp_Dm84",
       "searchable": 1,
       "changeable": 1
+    },
+    {
+      "key": "drpy_js_360影视",
+      "name": "🌏360影视",
+      "type": 3,
+      "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/360影视.js"
+    },
+    {
+      "key": "drpy_js_奇珍异兽",
+      "name": "🥝爱奇艺",
+      "type": 3,
+      "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/奇珍异兽.js"
+    },
+    {
+      "key": "drpy_js_优酷",
+      "name": "🪐优酷",
+      "type": 3,
+      "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/优酷.js"
+    },
+    {
+      "key": "drpy_js_腾云驾雾",
+      "name": "🐧腾讯视频",
+      "type": 3,
+      "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/腾云驾雾.js"
+    },
+    {
+      "key": "drpy_js_百忙无果",
+      "name": "🍋芒果TV",
+      "type": 3,
+      "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/百忙无果.js"
+    },
+    {
+      "key": "AList",
+      "name": "AList",
+      "type": 3,
+      "api": "csp_AList",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "./lib/data/alist.json"
     },
     {
       "key": "量子",
@@ -152,107 +187,16 @@
       ]
     },
     {
-      "key": "本地",
-      "name": "本地",
+      "key": "bili_open",
+      "name": "📺哔哩潮剧",
       "type": 3,
-      "api": "csp_Local",
-      "searchable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "AList",
-      "name": "AList",
-      "type": 3,
-      "api": "csp_AList",
+      "api": "https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
       "searchable": 1,
       "changeable": 0,
-      "ext": "./lib/data/alist.json"
-    },
-    {
-      "key": "WebDAV",
-      "name": "WebDAV",
-      "type": 3,
-      "api": "csp_WebDAV",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/webdav.json"
-    },
-    {
-      "key": "push_agent",
-      "name": "推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 1,
-      "changeable": 0
-    },
-    /* ↓↓↓↓↓↓↓ https://raw.gitmirror.com/T00700/TVBoxSE/master/FongMi.json ↓↓↓↓↓↓↓ */
-    {
-      "key": "drpy_Kunyun77",
-      "name": "☁酷云七七",
-      "type": 3,
-      "api": "https://agit.ai/00700/vvebo/raw/branch/main/DRJS/Lib/drpy2.diy.min.js",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://agit.ai/00700/vvebo/raw/branch/main/DRJS/%e4%b8%83%e4%b8%83.js"
-    },
-    {
-      "key": "drpy_Rinhome",
-      "name": "荐片蓝光",
-      "type": 3,
-      "api": "https://agit.ai/00700/vvebo/raw/branch/main/DRJS/Lib/drpy2.diy.min.js",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      //"ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/荐片.js",
-      "ext": "https://agit.ai/00700/vvebo/raw/branch/main/DRJS/%e8%8d%90%e7%89%870726.js"
-    },
-    {
-      "key": "csp_Paper",
-      "name": "小纸条源",
-      "type": 3,
-      "api": "csp_Paper",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": "f58bea917ce946c18479c25e453544b3",
-      "jar": "https://agit.ai/00700/vvebo/raw/branch/main/Spider/YSC0723.jar;md5;B71EFD3A383149B32B7575A403A0EA25"
-    },
-    /* ### 其他 ### */
-    {
-      "key": "csp_Nmys",
-      "name": "✈️速度流畅",
-      "type": 3,
-      "api": "csp_Nmys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/XBPQ/nmys.json",
-      "jar": "./lib/jar/0606.jar"
-    },
-    {
-      "key": "teng",
-      "name": "🐧腾讯",
-      "type": 3,
-      "api": "csp_Qtv",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./lib/jar/fm.jar"
-    },
-    {
-      "key": "MGT",
-      "name": "🍋芒果",
-      "type": 3,
-      "api": "csp_Mtv",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./lib/jar/fm.jar"
+      "ext": {
+        "categories": "潮剧#超清潮剧#潮剧选段#潮剧全剧#百花潮剧院#香港潮剧#潮剧团#潮剧院#潮剧小品#名家潮剧",
+        "cookie": ""
+      }
     }
   ],
   "parses": [
