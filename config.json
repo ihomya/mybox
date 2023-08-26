@@ -36,6 +36,12 @@
       "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/荐片.js"
     },
     {
+      "key":"drpy_js_农民",
+      "name":"影视 | 农民[js]",
+      "type":3,
+      "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/农民影视.js"},
+    {
       "key": "czzy_open",
       "name": "🏭厂长影视",
       "type": 3,
