@@ -85,7 +85,7 @@
       "api": "csp_AList",
       "searchable": 1,
       "changeable": 0,
-      "ext": "./lib/data/alist.json"
+      "ext": "./data/alist.json"
     },
     {
       "key": "量子",
