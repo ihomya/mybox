@@ -109,7 +109,7 @@
       "api": "csp_WebDAV",
       "searchable": 1,
       "changeable": 0,
-      "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/webdav.json"
+      "ext": "./data/webdav.json"
     },
     {
       "key": "量子",
