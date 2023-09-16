@@ -6,20 +6,19 @@
     <title>Document</title>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script>
-      // console.log($);
-      // $(".head")
-      let json = "";
-      $(function () {});
-      function onLoadData() {
-        let url = $(".head input").val();
-        //console.log($.parseJSON(url));
-        fetch(url)
-          .then((result) => result.json())
-          .then((output) => {
-            console.log("Output: ", output);
-          })
-          .catch((err) => console.error(err));
-      }
+      // console.log($)
+      const url = 'https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json';
+
+var xhr = new XMLHttpRequest();
+xhr.open("GET", url, true);
+xhr.onreadystatechange = function () {
+    if (xhr.readyState == 4 && xhr.status == 200){
+        console.log(JSON.parse(xhr.responseText));
+        let jsonData = JSON.parse(xhr.responseText)
+        
+    }
+}
+xhr.send();
     </script>
     <style>
       * {

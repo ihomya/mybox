@@ -7,21 +7,83 @@
       "name": "🔍豆瓣",
       "type": 3,
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
+      "changeable": 0,
       "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
       "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/drpy.js"
     },
-    {"key":"csp_77","name":"👒酷云七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
-    {"key":"csp_Czsapp","name":"🏭厂长","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":0,"jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
-    {"key":"快看","name":"👀快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
-    {"key":"drpy_Nmys","name":"农民影视","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"timeout":10,"ext":"https://agit.ai/00700/vvebo/raw/branch/main/DRJS/%e5%86%9c%e6%b0%91%e5%bd%b1%e8%a7%86.js"},
-
-{"key":"csp_XYQHiker_乐猪影视","name":"乐猪影视","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"timeout":10,"ext":"https://agit.ai/00700/vvebo/raw/branch/main/XYQHiker/%e4%b9%90%e7%8c%aaTV.json","jar":"https://agit.ai/00700/vvebo/raw/branch/main/Spider/T00700.jar"},
-{"key":"csp_XYQHiker_鸭奈飞影视","name":"奈飞影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"timeout":10,"ext":"https://agit.ai/00700/vvebo/raw/branch/main/XYQHiker/%e9%b8%ad%e5%a5%88%e9%a3%9e%e5%bd%b1%e8%a7%86.json","jar":"https://agit.ai/00700/vvebo/raw/branch/main/Spider/T00700.jar"},
-{"key":"csp_XYQHiker_人人影视PRO","name":"人人影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"timeout":10,"ext":"https://agit.ai/00700/vvebo/raw/branch/main/XYQHiker/%e4%ba%ba%e4%ba%ba%e5%bd%b1%e8%a7%86PRO.json","jar":"https://agit.ai/00700/vvebo/raw/branch/main/Spider/T00700.jar"},
-    {"key":"csp_Ysgc","name":"🎥影视工厂","type":3,"api":"csp_Ysgc","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.ysgc.fun","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
-    {"key": "drpy_js_荐片","name": "⚡荐片","type": 3,"api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/荐片.js"},
+    {
+        "key":"csp_77",
+        "name":"☁️酷云七七",
+        "type":3,
+        "api":"csp_Kunyu77",
+        "searchable":1,
+        "changeable":1,
+        "jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"
+    },
+    {
+        "key": "drpy_js_荐片",
+        "name": "⚡荐片","
+        type": 3,
+        "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+        "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/荐片.js"
+    },
+    {
+        "key": "快看",
+        "name": "快看",
+        "type": 3,
+        "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/kkys_open.js",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+        "key":"open_Czzy",
+        "name":"🏭厂长",
+        "type":3,
+        "api":"https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/czzy_open.js",
+        "searchable":1,
+        "changeable":1
+    },
+    {
+        "key":"迷你库",
+        "name":"Ⓜ️迷你库",
+        "type":3,
+        "api":"csp_AppYsV2",
+        "searchable":1,
+        "changeable":1,
+        "ext":"http://www.miniku.cc/xgapp.php/v1/",
+        "jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"
+    },
+    {
+        "key": "暴風",
+        "name": "暴風",
+        "type": 1,
+        "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+        "searchable": 1,
+        "changeable": 1
+    },
+    {
+        "key": "量子",
+        "name": "量子",
+        "type": 0,
+        "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+        "searchable": 1,
+        "changeable": 1
+    },
+    {
+        "key":"drpy_tvb",
+        "name":"☁️云播",
+        "type":3,
+        "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+        "ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/TVB云播.js"
+    },
+    {
+        "key": "drpy_libvio",
+        "name": "🍪利奥",
+        "type": 3,
+        "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+        "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/LIBVIO.js"
+    },
+    
     {
       "key": "AList",
       "name": "AList",
