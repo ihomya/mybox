@@ -33,7 +33,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "#token": "./alitoken.txt",
+        "token": "./alitoken.txt",
         "filter": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/wogg.json"
       }
     },
