@@ -16,21 +16,6 @@
     ],
     "sites": [
     {
-        "key":"玩偶哥哥T4",
-        "name":"推荐",
-        "type":4,
-        "api":"http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清&token=71eea7fa31af4674bc64f83c47c2e493",      
-        "playerType":1,
-        "searchable":1,
-        "quickSearch":1,
-        "filterable":1,
-        "changeable":0,
-        "style":{
-            "type":"rect",
-            "ratio":0.75
-        }
-    },
-    {    
       "key": "drpy_js_douban",
       "name": "🔍豆瓣",
       "type": 3,
@@ -48,7 +33,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "token": "影視天下第一",
+        "token": "./alitoken.txt",
         "filter": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/wogg.json"
       }
     },
@@ -74,14 +59,6 @@
         "type": 3,
         "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
         "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/荐片.js"
-    },
-    {
-      "key": "五五",
-      "name": "五五",
-      "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/555dy_open.js",
-      "searchable": 1,
-      "changeable": 1
     },
     {
       "key": "七夜",
@@ -912,7 +889,7 @@
         "cdnjs.hnfenxun.com",
         "cms.qdwght.com"
     ],
-"doh": [
+  "doh": [
     {
       "name": "Google",
       "url": "https://dns.google/dns-query",
@@ -958,25 +935,6 @@
   ],
   "rules": [
     {
-      "name": "proxy",
-      "hosts": [
-        "raw.githubusercontent.com",
-        "googlevideo.com",
-        "cdn.v82u1l.com",
-        "cdn.iz8qkg.com",
-        "cdn.kin6c1.com",
-        "c.biggggg.com",
-        "c.olddddd.com",
-        "haiwaikan.com",
-        "www.histar.tv",
-        "youtube.com",
-        "uhibo.com",
-        ".*boku.*",
-        ".*nivod.*",
-        ".*ulivetv.*"
-      ]
-    },
-    {
       "name": "海外看",
       "hosts": [
         "haiwaikan"
@@ -984,8 +942,7 @@
       "regex": [
         "8.1748",
         "10.0099",
-        "10.3333",
-        "16.0599"
+        "10.3333"
       ]
     },
     {
@@ -1045,15 +1002,6 @@
       ],
       "regex": [
         "is_play_url="
-      ]
-    },
-    {
-      "name": "農民嗅探",
-      "hosts": [
-        "toutiaovod.com"
-      ],
-      "regex": [
-        "video/tos/cn"
       ]
     }
   ]
