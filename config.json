@@ -39,7 +39,7 @@
         "key":"open_Czzy",
         "name":"🏭厂长",
         "type":3,
-        "api":"https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/czzy_open.js",
+        "api":"https://ghproxy.com/https://raw.githubusercontent.com/catvod/CatVodOpen/main/open/kkys_open.js",
         "searchable":1,
         "changeable":1
     },

@@ -56,7 +56,7 @@
       "key": "czzy_open",
       "name": "🏭厂长",
       "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/czzy_open.js",
+      "api": "https://ghproxy.com/https://raw.githubusercontent.com/catvod/CatVodOpen/main/open/kkys_open.js",
       "searchable": 1,
       "changeable": 1
     },
@@ -74,14 +74,6 @@
         "type": 3,
         "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
         "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/荐片.js"
-    },
-    {
-      "key": "五五",
-      "name": "五五",
-      "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/555dy_open.js",
-      "searchable": 1,
-      "changeable": 1
     },
     {
       "key": "七夜",
