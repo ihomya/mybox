@@ -30,36 +30,8 @@
             "ratio":0.75
         }
     },
-    {    
-      "key": "drpy_js_douban",
-      "name": "🔍豆瓣",
-      "type": 3,
-      "searchable": 0,
-      "changeable": 0,
-      "filterable": 1,
-      "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/drpy.js"
-    },
-    {
-      "key": "csp_wogg",
-      "name": "🧸玩偶",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "token": "影視天下第一",
-        "filter": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/wogg.json"
-      }
-    },
-    {
-      "key": "czzy_open",
-      "name": "🏭厂长",
-      "type": 3,
-      "api": "https://ghproxy.com/https://raw.githubusercontent.com/catvod/CatVodOpen/main/open/kkys_open.js",
-      "searchable": 1,
-      "changeable": 1
-    },
+    {"key": "js豆瓣","name": "🔍豆瓣推荐","type": 3,"api":"http://itvbox.cc/sft/lib/drpy2.min.js","ext": "https://jihulab.com/duomv/duox/-/raw/main/js/douban.js"},
+
     {
       "key": "kuyun77",
       "name": "☁️酷云七七",
@@ -68,72 +40,22 @@
       "searchable": 1,
       "changeable": 1
     },
-    {
-        "key": "drpy_js_荐片",
-        "name": "⚡荐片",
-        "type": 3,
-        "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
-        "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/荐片.js"
-    },
-    {
-      "key": "七夜",
-      "name": "🔍七夜",
-      "type": 3,
-      "api": "csp_Dovx",
-      "searchable": 1,
-      "changeable": 0,
-      "#ext": "./alitoken.txt"
-    },
-    {
-      "key": "易搜",
-      "name": "🔍易搜",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "changeable": 0,
-      "#ext": "./alitoken.txt"
-    },
-    {
-      "key": "云搜",
-      "name": "🔍云搜",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "盘搜",
-      "name": "🔍盘搜",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "小纸条",
-      "name": "🔍小纸条",
-      "type": 3,
-      "api": "csp_XiaoZhiTiao",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "盘搜索",
-      "name": "🔍盘搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "找资源",
-      "name": "🔍找资源",
-      "type": 3,
-      "api": "csp_Zhaozy",
-      "searchable": 1,
-      "changeable": 0,
-      "#ext": "影視天下第一$$$test2$$$test2"
-    },
+{"key": "荐片","name": "⚡️荐片","type": 3,"playerType":1,"api": "http://itvbox.cc/sft/lib/drpy2.min.js","ext": "https://jihulab.com/duomv/duox/-/raw/main/js/荐片.js","searchable": 1,"quickSearch": 1,"filterable": 1},
+
+{"key": "csp_KungFu404","name":"🎦阿里设置","type": 3, "api": "csp_KungFu404", "searchable":1,"filterable": 0, "changeable":0,"jar":"http://shuyuan.miaogongzi.net/shuyuan/1694489884.json"},
+
+{"key": "csp_WoGG","name": "🦊玩偶哥哥4K","type": 3,"playerType":2,"api": "csp_WoGG","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt$$$https://wogg.xyz/","jar":"http://shuyuan.miaogongzi.net/shuyuan/1696350614.txt"},
+
+{"key": "UpYun","name": "🦊Up搜搜索","type": 3,"playerType":2,"api": "csp_UpYun","searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 0,"ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt+4k|fhd|auto","jar":"http://shuyuan.miaogongzi.net/shuyuan/1696350614.txt"},
+
+{"key": "七夜","name": "🦊七夜搜索","type": 3,"playerType":2,"api": "csp_Dovx","searchable": 1,"quickSearch": 1,"filterable": 0, "changeable": 0,"ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt+4k|fhd|auto","jar":"http://shuyuan.miaogongzi.net/shuyuan/1696350614.txt"},
+
+{"key": "Gitcafe","name": "🦊小纸条(搜索)","type": 3,"api": "csp_Gitcafe","playerType":2,"searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"http://itvbox.cc/tvbox/云星日记/jar/Hk.jar;md5;566e51fb1be76de5f1de4f6b6cdb1a65","ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt"},
+
+{"key": "csp_Zhaozy5","name": "📀找资源(搜索)","type": 3,"api": "csp_Zhaozy","playerType":2,"searchable": 1,"quickSearch": 1,"filterable": 0,"jar":"http://itvbox.cc/tvbox/云星日记/jar/Hk.jar;md5;566e51fb1be76de5f1de4f6b6cdb1a65","ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt$$$yannanfei$$$abcdefg"},
+
+{"key": "csp_AliPS","name": "📀喵狸盘搜(搜索)","type": 3,"api": "csp_AliPS","playerType":2,"searchable": 1,"quickSearch": 1,"filterable": 0,"jar":"http://itvbox.cc/tvbox/云星日记/jar/Hk.jar;md5;566e51fb1be76de5f1de4f6b6cdb1a65","ext": "http://127.0.0.1:9978/file/TVBox/jar/alitoken.txt"},
+
     {
       "key": "AList",
       "name": "AList",
