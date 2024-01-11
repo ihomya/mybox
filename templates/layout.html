@@ -1,0 +1,71 @@
+$def with (content)
+<html>
+
+<head>
+</head>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVBOX 收集站</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        i {
+            font-style: normal;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .nav ul {
+            display: flex;
+            /* flex-direction: row; */
+            /* justify-content: center; */
+        }
+
+        .nav ul>li {
+            padding: 10px 30px;
+        }
+
+        .nav ul>li>a {
+            padding-bottom: 5px;
+            color: #fff;
+        }
+
+        .nav ul>li>a:hover {
+            border-bottom: 2px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="nav">
+        <ul>
+            <li class="home"><span><i>🏠</i></span> <a href="/index">主页</a></li>
+            <li class="editor"><span><i>✍</i></span> <a href="/editor">编辑器</a></li>
+            <li><span><i>🏭</i></span> <a href="https://github.com">仓库</a></li>
+        </ul>
+    </header>
+    $:content
+</body>
+
+</html>
