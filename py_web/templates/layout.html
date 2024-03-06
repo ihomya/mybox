@@ -1,0 +1,53 @@
+$def with (content)
+<html>
+
+<head>
+</head>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVBOX 收集站</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        } 
+        i {
+            font-style: normal;
+        } 
+        ul{
+            list-style: none;
+        }
+        .layout-nav ul>li>a:hover {
+            border-bottom: 2px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="layout-nav" style="background-color: #333; color: #fff;">
+        <ul style="display: flex;">
+            <li class="home" style="padding: 10px 30px;">
+                <span><i>🏠</i></span> <a href="/" style="text-decoration: none;padding-bottom: 5px;color: #fff;">主页</a>
+            </li>
+            <li class="editor" style="padding: 10px 30px;">
+                <span><i>✍</i></span> <a href="/editor" style="text-decoration: none;padding-bottom: 5px;color: #fff;">编辑器</a>
+            </li>
+            <li class="github" style="padding: 10px 30px;">
+                <span><i>🏭</i></span> <a href="https://www.lige.fit/ua" style="text-decoration: none;padding-bottom: 5px;color: #fff;">解密</a>
+            </li>
+            <li class="admin" style="padding: 10px 30px;">
+                <span><i>🏭</i></span> <a href="/admin" style="text-decoration: none;padding-bottom: 5px;color: #fff;">管理</a>
+            </li>
+        </ul>
+    </header>
+    $:content
+</body>
+
+</html>
