@@ -16,6 +16,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install json5 requests
     - name: Run Python script
-      run: python main.py
+      run: python dataSift.py
