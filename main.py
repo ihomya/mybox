@@ -20,6 +20,6 @@ try:
 			d['sites'].append(item)
 	#print(d)
 	with open('./new.json','w') as f:
-		f.write(json5.dumps(d))
+		f.write(json5.dumps(d),encode='utf-8')
 except:
 		pass
