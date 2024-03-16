@@ -1,5 +1,4 @@
-name: Python CI
-
+name: runner
 on: [push]
 
 jobs:
@@ -18,7 +17,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install json5 requests
     - name: Run Python script
-      run: python dataSift.py
+      run: python main.py
     - name: Push
       run: |
           git config user.name github-actions
