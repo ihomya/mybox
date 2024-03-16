@@ -19,7 +19,7 @@ try:
 		if(item['key'] in siftkey):
 			d['sites'].append(item)
 	#print(d)
-	with open('./new.json','w',encode='utf-8') as f:
+	with open('./new1.json','w',encode='utf-8') as f:
 		f.write(json5.dumps(d))
 except:
 		pass
