@@ -3,13 +3,13 @@
     "wallpaper": "https://jianbian.chuqiuyu.tk",
     "warningText": "",
     "lives": [
-        {
+       /* {
             "name": "fanmingming",
             "type":0,
             "playerType":1,
             "boot":false,
             "url":"https://live.fanmingming.com/tv/m3u/global.m3u"
-        }
+        }*/
     ],
     "sites": [
         {
