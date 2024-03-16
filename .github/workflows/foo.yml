@@ -21,8 +21,10 @@ jobs:
       run: python main.py
     - name: 推送
       run: |
+        mkdir test
         git config user.name github-actions
         git config user.email github-actions@github.com 
         git add .
         git commit -m "update new.json" 
-        git push -u origin main 
+        git push -u origin main
+        rm -frv test
