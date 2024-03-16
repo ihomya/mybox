@@ -19,8 +19,10 @@ jobs:
         pip install json5 requests
     - name: Run Python script
       run: python dataSift.py
-    - name: upload result
-        uses: actions/upload-artifact@v1
-        with:
-          name: new.json
-          path: ${{ github.workspace }}/new.json
+    - name: Push
+      run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "update"
+          git push
